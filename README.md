@@ -2,9 +2,11 @@
 
 > Engineering software for preliminary mooring and buoy-system analysis.
 
-**Status: active development · Source code: private**
+**Work in progress · Active development · Not a released product**
 
-Nautic Analytics is an engineering project for making the preliminary design of buoy-assisted mooring arrangements easier to inspect, compare and explain. The working source remains private while the product and its engineering basis are being developed; this repository is the public window into that work.
+**Source code: private**
+
+Nautic Analytics is an engineering project in progress for making the preliminary design of buoy-assisted mooring arrangements easier to inspect, compare and explain. The product is still being built and validated, so features, terminology and scope may change. The working source remains private while the product and its engineering basis are being developed; this repository is the public window into that work.
 
 ## What I am building
 
