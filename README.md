@@ -6,6 +6,8 @@
 
 **Source code: private**
 
+![Nautic Analytics](assets/social-preview.png)
+
 Nautic Analytics is an engineering project in progress for making the preliminary design of buoy-assisted mooring arrangements easier to inspect, compare and explain. The product is still being built and validated, so features, terminology and scope may change. The working source remains private while the product and its engineering basis are being developed; this repository is the public window into that work.
 
 ## What I am building
@@ -39,7 +41,7 @@ This repository contains presentation material only. It does not contain:
 - copied normative documents, tables or proprietary manufacturer material;
 - credentials, deployment configuration or private engineering work products.
 
-Examples and future screenshots will use synthetic or deliberately anonymized data.
+Examples and future visual material will use synthetic or deliberately anonymized data.
 
 ## Architecture at a glance
 
