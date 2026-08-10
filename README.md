@@ -20,7 +20,7 @@ The project brings the early engineering workflow into one local application:
 - PDF technical-report and Excel material-list exports;
 - bilingual interface and reproducible local execution.
 
-The engineering basis includes references from ROM 2.0-11, BS 6349-4, UFC, IACS and DNV. This showcase deliberately does not reproduce normative text, protected tables or project/client material.
+The engineering basis includes ROM and complementary international marine-engineering references. This showcase deliberately does not reproduce normative text, protected tables or project/client material.
 
 ## Why it exists
 

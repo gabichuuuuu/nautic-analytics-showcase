@@ -43,4 +43,4 @@ The public repository documents the product shape and engineering intent. The im
 - Backend: FastAPI and Python.
 - Frontend: React, TypeScript, Vite and D3-based diagrams.
 - Runtime: local web application with technical exports.
-- Engineering basis: ROM, BS, UFC, IACS and DNV references selected for the relevant preliminary checks.
+- Engineering basis: ROM and complementary international marine-engineering references selected for the relevant preliminary checks.
