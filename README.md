@@ -6,7 +6,9 @@
 
 **Source code: private**
 
-Nautic Analytics is an engineering project in progress for making the preliminary design of buoy-assisted mooring arrangements easier to inspect, compare and explain. The product is still being built and validated, so features, terminology and scope may change. The working source remains private while the product and its engineering basis are being developed; this repository is the public window into that work.
+Nautic Analytics brings mooring analysis and individual-buoy preliminary design into a local engineering application. It helps connect input assumptions, component choices and calculation results so that a proposed arrangement is easier to inspect, compare and explain.
+
+The application is under active development in a private repository. This public showcase contains documentation only: there is no runnable application, installer or interactive demo here. Capabilities and engineering scope may change as development and validation continue.
 
 ## What I am building
 
@@ -16,9 +18,12 @@ The project brings the early engineering workflow into one local application:
 - quasi-static environmental-load and mooring analysis;
 - configuration-aware load sharing for single and multiple-buoy arrangements;
 - component selection from buoy, chain, anchor and shackle catalogues;
+- an individual-buoy workspace bringing requirements, geometry, buoyancy, component choices and preliminary structural review into one flow;
 - utilization, sensitivity and alarm-curve views;
 - PDF technical-report and Excel material-list exports;
 - bilingual interface and reproducible local execution.
+
+The mooring workflow evaluates vessel and environmental inputs. The individual-buoy workflow studies the buoy and its load path using supplied or declared actions; it does not independently establish the environmental design loads. Catalogue selections and computed proposals still require supporting capacity data and engineering review.
 
 The engineering basis includes ROM and complementary international marine-engineering references. This showcase deliberately does not reproduce normative text, protected tables or project/client material.
 
@@ -47,7 +52,7 @@ Examples and future screenshots will use synthetic or deliberately anonymized da
 flowchart LR
     UI[Web interface<br/>React + TypeScript]
     API[Application API<br/>FastAPI]
-    ENGINE[Calculation engine<br/>engineering rules + checks]
+    ENGINE[Engineering models<br/>mooring + individual buoy]
     DATA[Catalogues and<br/>traceability data]
     OUTPUT[Technical outputs<br/>PDF + Excel]
 
@@ -63,11 +68,10 @@ The public abstraction is documented in [Architecture](docs/ARCHITECTURE.md).
 
 ## Current direction
 
-- strengthening the calculation and regression-validation workflow;
-- expanding traceability from input assumptions to engineering verdicts;
-- improving the topology and catenary views;
-- polishing technical-report and material-list exports;
-- preparing a safe visual demo that does not expose the private implementation.
+- extending verification of the calculation models and their limits;
+- making assumptions, missing evidence and review status clearer;
+- refining the unified buoy-design workflow and its technical outputs;
+- preparing shareable examples using synthetic data.
 
 See the [roadmap](docs/ROADMAP.md) for the public project outline.
 
@@ -75,10 +79,16 @@ See the [roadmap](docs/ROADMAP.md) for the public project outline.
 
 Nautic Analytics is a **preliminary-design tool**. It is not a substitute for detailed dynamic analysis, fatigue assessment, geotechnical verification or review and sign-off by a qualified engineer.
 
+Passing software tests or obtaining a favourable preliminary check does not certify a component, validate fabrication details or establish that a design is ready for construction. Connections, welds, local structural behaviour and declared component capacities require the appropriate independent evidence and assessment.
+
 ## En español
 
 Nautic Analytics es una herramienta de ingeniería en desarrollo para el prediseño de sistemas de fondeo con boyas. Este repositorio público sirve como escaparate del proyecto: explica qué estoy construyendo, su arquitectura y su evolución, mientras el código fuente y la documentación de trabajo permanecen en un repositorio privado.
 
+La aplicación reúne el análisis cuasiestático del fondeo y un espacio de trabajo de boya individual para estudiar requisitos, geometría, flotación y predimensionado estructural. Las comprobaciones preliminares y las pruebas del software no equivalen a certificación ni a autorización de fabricación. Este repositorio contiene únicamente documentación; no incluye una aplicación ejecutable ni una demo interactiva.
+
 ## About this repository
 
-This is a documentation-first showcase. The source repository is proprietary and is not open for cloning or code contributions at this stage. For the rationale behind this separation, see [NOTICE.md](NOTICE.md).
+These four documents are curated in the private source repository and synchronized here automatically. Changes must be maintained in that curated source to survive subsequent publications. Application source contributions are not open at this stage.
+
+Read the [architecture](docs/ARCHITECTURE.md), [development roadmap](docs/ROADMAP.md) and [public showcase notice](NOTICE.md) for the technical outline, current direction and publication boundary.
